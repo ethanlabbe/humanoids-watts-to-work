@@ -1,17 +1,18 @@
-# Quartz v5
+# Humanoids: Watts to Work
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+A source-backed engineering library on humanoid robots, from battery power and sensing to motion, useful work, and deployment.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+Read it at https://ethanlabbe.github.io/humanoids-watts-to-work/
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+The book is written in an Obsidian vault and published here with [Quartz](https://quartz.jzhao.xyz/) (MIT licence). `content/` is generated: edit the vault, not this folder.
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+## Publishing an update
 
-## Sponsors
+```sh
+uv run sync_from_vault.py      # copy the book from the vault into content/
+git add -A && git commit -m "Sync from vault" && git push
+```
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+Pushing to `v5` runs `.github/workflows/deploy.yml`, which builds the site and deploys it to GitHub Pages.
+
+Local preview needs Node 22 or later: `npm ci`, then `npx quartz build --serve` (http://localhost:8080).
