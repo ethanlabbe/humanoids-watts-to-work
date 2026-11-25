@@ -150,6 +150,22 @@ plugins:
       priority: 50
   - source: "@quartz-community/graph"
     enabled: true
+    # Decluttered: no tag nodes, names only on hover or when zoomed far in
+    # (label opacity = (zoom * opacityScale - 1) / 3.75, zoom tops out at 4).
+    options:
+      localGraph:
+        showTags: false
+        opacityScale: 0.5
+        fontSize: 0.5
+        focusOnHover: true
+        repelForce: 0.8
+      globalGraph:
+        showTags: false
+        opacityScale: 0.4
+        fontSize: 0.5
+        focusOnHover: true
+        repelForce: 1
+        linkDistance: 40
     layout:
       position: right
       priority: 10
