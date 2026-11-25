@@ -13,6 +13,7 @@ What it changes on the way (the vault itself is never written):
 - turns links to left-out notes into plain text;
 - moves each note's first "# Heading" into frontmatter `title`, so Quartz
   shows it once (as the page title) instead of twice;
+- removes last-reviewed dates (review state is for the vault, not readers);
 - sets frontmatter `modified` to the vault file's date, since this repo's
   git dates are only publish dates;
 - on the home page, drops list items and sections that only pointed at
@@ -79,6 +80,14 @@ def set_frontmatter(text: str, modified: str) -> str:
     return f"---\n{fm}---\n\n{body.lstrip(chr(10))}"
 
 
+def strip_review_dates(text: str) -> str:
+    """Remove last-reviewed dates: the frontmatter key, the "**Last reviewed:**"
+    paragraph, and 1.1's sentence saying each chapter starts with one."""
+    text = re.sub(r"^last_reviewed:.*\n", "", text, flags=re.M)
+    text = re.sub(r"^\*\*Last reviewed:\*\*.*\n\n?", "", text, flags=re.M)
+    return text.replace("starts with its scope and last-reviewed date and", "starts with its scope and")
+
+
 def prune_home(text: str, dropped: set[str]) -> str:
     """Drop home-page list items that only linked to left-out notes, then empty sections."""
     names = "|".join(re.escape(n) for n in dropped)
@@ -111,6 +120,7 @@ def main() -> None:
         if p.stem == HOME:
             text = prune_home(text, dropped)
         text = rewrite_links(text, dropped, stats)
+        text = strip_review_dates(text)
         text = set_frontmatter(text, date.fromtimestamp(p.stat().st_mtime).isoformat())
         for m in WIKILINK.finditer(text):
             t = m.group(2).strip()
