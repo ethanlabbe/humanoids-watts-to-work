@@ -37,6 +37,18 @@ html[saved-theme] body {
   fill: var(--light) !important;
   opacity: 1 !important;
 }
+// A thin border so those labels stand out from the page. Outline and shadow
+// draw outside the label without changing its size, so Mermaid's layout holds;
+// the shadow fills the gap between text and border with the page colour.
+.mermaid svg g.edgeLabel foreignObject {
+  overflow: visible !important;
+}
+.mermaid svg g.edgeLabel .labelBkg:has(p:not(:empty)) {
+  outline: 1px solid var(--gray);
+  outline-offset: 3px;
+  border-radius: 3px;
+  box-shadow: 0 0 0 3px var(--light);
+}
 // Centre each diagram, and shrink wide ones to the column instead of cutting
 // them off (the vault's diagrams set useMaxWidth: false).
 code.mermaid {
