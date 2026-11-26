@@ -39,7 +39,7 @@ DEFAULT_SOURCE = Path(
 
 HOME = "00 Home"
 # Paths relative to the book folder, matched as prefixes.
-EXCLUDE = ("99 Templates/", "00 Library/Review Queue.md")
+EXCLUDE = ("99 Templates/", "00 Library/Review Queue.md", "00 Library/Deployment Tracker.md")
 
 # Target stops at "#", "|" or a table-escaped "\|", so the backslash is not part of it.
 WIKILINK = re.compile(r"(!?)\[\[((?:[^\]|#\\]|\\(?!\|))*)(#(?:[^\]|\\]|\\(?!\|))*)?(\\?\|[^\]]*)?\]\]")
@@ -178,6 +178,11 @@ def main() -> None:
         if p.stem == HOME:
             text = prune_home(text, dropped)
             text = clean_home(text)
+        # Drop "[[Left-out note]]" entries from " · "-separated link rows.
+        names = "|".join(re.escape(n) for n in dropped)
+        text = re.sub(rf" · \[\[(?:{names})(?:\|[^\]]*)?\]\](?= ·|$)", "", text, flags=re.M)
+        # Drop list items that are only a link to a left-out note.
+        text = re.sub(rf"^- \[\[(?:{names})(?:\|[^\]]*)?\]\]\s*\n", "", text, flags=re.M)
         text = rewrite_links(text, dropped, stats)
         text = strip_review_dates(text)
         text = clean_for_readers(text, rel.as_posix())

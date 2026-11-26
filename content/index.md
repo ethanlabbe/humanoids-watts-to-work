@@ -95,6 +95,5 @@ Evidence rules:
 
 - [[Glossary]]: terms defined so far, each linked to the chapter that introduces it
 - [[Source Index]]: every source used, and which chapter uses it
-- [[Deployment Tracker]]: dated deployment evidence by stage (no entries yet)
 - [[Open Questions]]: real unsolved problems holding back humanoid development
 

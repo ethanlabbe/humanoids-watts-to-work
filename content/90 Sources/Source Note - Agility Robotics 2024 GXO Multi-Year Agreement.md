@@ -15,7 +15,7 @@ source_type: vendor material
 
 ## Claims supported
 
-- GXO signed a multi-year Robots-as-a-Service (RaaS) agreement for Digit, following "a proof-of-concept pilot in late 2023". Cited in [[1.1 - Introduction - From Watts to Work|1.1]] §1.1.3 and [[Deployment Tracker]].
+- GXO signed a multi-year Robots-as-a-Service (RaaS) agreement for Digit, following "a proof-of-concept pilot in late 2023". Cited in [[1.1 - Introduction - From Watts to Work|1.1]] §1.1.3 and Deployment Tracker.
 - "Digit robots are assisting with repetitive tasks such as moving totes from cobots and placing them onto conveyors" at "the SPANX facility". Cited in 1.1 §1.1.3.
 
 

@@ -15,7 +15,7 @@ source_type: vendor material
 
 ## Claims supported
 
-- Digit "has moved over 100,000 totes at GXO's Flowery Branch facility". Cited in [[1.1 - Introduction - From Watts to Work|1.1]] §1.1.3 and [[Deployment Tracker]].
+- Digit "has moved over 100,000 totes at GXO's Flowery Branch facility". Cited in [[1.1 - Introduction - From Watts to Work|1.1]] §1.1.3 and Deployment Tracker.
 - Tasks described: moving items "on and off an AMR to a conveyor" and "stacking totes onto a different floor location". Cited in [[1.3 - Why Build a Humanoid|1.3]] §1.3.5 as evidence of two related handling tasks.
 
 ## Test conditions
