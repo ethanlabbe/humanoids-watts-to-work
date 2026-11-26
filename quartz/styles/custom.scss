@@ -1,3 +1,16 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// Red-orange accent instead of the Obsidian theme's purple (hue 258).
+// The theme derives links, the site title and highlights from these.
+html[saved-theme] body {
+  --accent-h: 14;
+  --accent-s: 88%;
+  --accent-l: 56%;
+}
+
+// Darker in light mode so links on white stay above 4.5:1 contrast.
+html[saved-theme="light"] body {
+  --accent-l: 42%;
+}

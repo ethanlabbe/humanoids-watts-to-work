@@ -149,23 +149,7 @@ plugins:
       position: left
       priority: 50
   - source: "@quartz-community/graph"
-    enabled: true
-    # Decluttered: no tag nodes, names only on hover or when zoomed far in
-    # (label opacity = (zoom * opacityScale - 1) / 3.75, zoom tops out at 4).
-    options:
-      localGraph:
-        showTags: false
-        opacityScale: 0.5
-        fontSize: 0.5
-        focusOnHover: true
-        repelForce: 0.8
-      globalGraph:
-        showTags: false
-        opacityScale: 0.4
-        fontSize: 0.5
-        focusOnHover: true
-        repelForce: 1
-        linkDistance: 40
+    enabled: false
     layout:
       position: right
       priority: 10
@@ -179,8 +163,9 @@ plugins:
         grow: true
   - source: "@quartz-community/backlinks"
     enabled: true
+    # Below the article, so the table of contents has the right column to itself.
     layout:
-      position: right
+      position: afterBody
       priority: 50
   - source: "@quartz-community/article-title"
     enabled: true
