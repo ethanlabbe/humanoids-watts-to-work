@@ -10,6 +10,46 @@ html[saved-theme] body {
   --accent-l: 56%;
 }
 
+// Mermaid diagrams.
+// Mermaid sizes each box for its default font at about 16px, but the site
+// then drew the text in the code font at 18px, so labels spilled out of their
+// boxes. Draw the text in the font Mermaid measured with. If the code font
+// was what got measured, this font is narrower, so text still fits.
+.mermaid svg,
+.mermaid svg .nodeLabel,
+.mermaid svg .edgeLabel,
+.mermaid svg foreignObject div,
+.mermaid svg foreignObject span,
+.mermaid svg foreignObject p {
+  font-family: "trebuchet ms", verdana, arial, sans-serif !important;
+  font-size: 16px !important;
+}
+// Edge labels ("next command", "can stop") get a solid background so the
+// lines behind them don't show through.
+.mermaid svg .edgeLabel,
+.mermaid svg .edgeLabel p,
+.mermaid svg .edgeLabel span,
+.mermaid svg .labelBkg {
+  background-color: var(--light) !important;
+  opacity: 1 !important;
+}
+.mermaid svg .edgeLabel rect {
+  fill: var(--light) !important;
+  opacity: 1 !important;
+}
+// Centre each diagram, and shrink wide ones to the column instead of cutting
+// them off (the vault's diagrams set useMaxWidth: false).
+code.mermaid {
+  display: block;
+  text-align: center;
+}
+.mermaid svg {
+  display: block;
+  margin: 0 auto;
+  max-width: 100% !important;
+  height: auto;
+}
+
 // Darker in light mode so links on white stay above 4.5:1 contrast.
 html[saved-theme="light"] body {
   --accent-l: 42%;
