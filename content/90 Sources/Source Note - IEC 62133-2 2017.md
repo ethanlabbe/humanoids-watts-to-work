@@ -2,7 +2,6 @@
 title: "IEC 62133-2:2017 Safety Requirements for Portable Sealed Secondary Lithium Cells and Batteries"
 type: source
 source_type: standard
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]

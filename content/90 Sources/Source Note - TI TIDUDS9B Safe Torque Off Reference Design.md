@@ -2,14 +2,13 @@
 title: "TI TIDUDS9B Safe Torque Off Reference Design"
 type: source
 source_type: vendor material
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Design guide TIDUDS9B (reference design TIDA-01599), section 1 "System Description"
 - **Author or organization:** Texas Instruments
-- **Publication date:** December 2017, revised November 2022; accessed 2026-11-22
+- **Publication date:** December 2017, revised November 2022
 - **Source type:** Vendor material (reference design guide)
 - **Stable URL or DOI:** https://ti.com/document-viewer/lit/html/TIDUDS9B/GUID-D45B2C6F-497E-49DC-92C8-8FE46481BAA0
 - **Evidence label:** Vendor-reported (engineering guidance)

@@ -2,14 +2,13 @@
 title: "UBTECH Walker S2 Product Page"
 type: source
 source_type: vendor material
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** UBTECH Walker S2 Humanoid Robot, Autonomous Battery Swapping for Mass Production Delivery
 - **Author or organization:** UBTECH Robotics
-- **Publication date:** Undated; accessed 2026-11-22
+- **Publication date:** Undated
 - **Source type:** Vendor material
 - **Stable URL or DOI:** https://www.ubtrobot.com/en/humanoid/products/WalkerS2
 - **Evidence label:** Vendor-reported

@@ -2,14 +2,13 @@
 title: "Bőle 2016 TI GaN in High-Speed Motor Drives"
 type: source
 source_type: vendor material
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Gallium Nitride Transistors Open up New Frontiers in High-speed Motor Drives (technical article SSZTAJ4)
 - **Author or organization:** Zoé Pál Bőle, Texas Instruments
-- **Publication date:** December 2016; accessed 2026-11-22
+- **Publication date:** December 2016
 - **Source type:** Vendor material (technical article)
 - **Stable URL or DOI:** https://ti.com/document-viewer/lit/html/SSZTAJ4/GUID-FB9AA6C5-4129-4543-AA91-E7BC0E394470
 - **Evidence label:** Vendor-reported

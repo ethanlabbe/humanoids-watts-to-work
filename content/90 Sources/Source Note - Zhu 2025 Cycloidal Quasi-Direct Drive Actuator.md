@@ -2,14 +2,13 @@
 title: "Zhu 2025 Cycloidal Quasi-Direct Drive Actuator"
 type: source
 source_type: paper
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Cycloidal Quasi-Direct Drive Actuator Designs with Learning-based Torque Estimation for Legged Robotics
 - **Author or organization:** Alvin Zhu, Yusuke Tanaka, Fadi Rafeedi, Dennis Hong; UCLA
-- **Publication date:** 2025-03-20 (arXiv v2); accessed 2026-11-22
+- **Publication date:** 2025-03-20 (arXiv v2)
 - **Source type:** Research preprint
 - **Stable URL or DOI:** https://arxiv.org/abs/2410.16591
 - **Evidence label:** Author-measured research prototype

@@ -2,7 +2,6 @@
 title: "iCub Whole-Body Control through Force Regulation on Rigid Non-Coplanar Contacts"
 type: source
 source_type: paper
-modified: 2026-11-19
 ---
 
 [[Source Index]] · [[index|Home]]
@@ -16,15 +15,15 @@ modified: 2026-11-19
 
 ## Claims supported
 
-- iCub's distributed six-axis force/torque sensors and whole-body tactile skin are used to estimate contact wrenches, internal joint torques, and inertial parameters. Formerly cited in 1.4 §1.4.4; removed in the 2026-11-19 rewrite as a dated research example.
-- In experiments the robot balances on both feet while its center of mass moves sinusoidally, then regulates arm forces when its arms contact a table without disturbing the center of pressure at the feet. Not currently cited.
+- iCub's distributed six-axis force/torque sensors and whole-body tactile skin are used to estimate contact wrenches, internal joint torques, and inertial parameters.
+- In experiments the robot balances on both feet while its centre of mass moves sinusoidally, then regulates arm forces when its arms contact a table without disturbing the centre of pressure at the feet. Not currently cited.
 
 - "iCub is 104 cm tall and has 53 degrees of freedom": 6 in the head, 16 in each arm, 3 in the torso, and 6 in each leg. Cited in [[1.2 - What Is a Humanoid Robot|1.2]] §1.2.2.
 
 ## Test conditions
 
 - **Platform or configuration:** iCub humanoid with its force/torque sensors and tactile skin.
-- **Units and measurement boundary:** Contact forces and center-of-pressure tracking. Only the iCub height and DoF breakdown are used, in [[1.2 - What Is a Humanoid Robot|1.2]] §1.2.2.
+- **Units and measurement boundary:** Contact forces and centre-of-pressure tracking. Only the iCub height and DoF breakdown are used, in [[1.2 - What Is a Humanoid Robot|1.2]] §1.2.2.
 - **Operating conditions:** Laboratory; rigid contacts (feet on ground, arms on a table).
 - **Duration, sample size, denominator:** Research experiments; not a deployment.
 

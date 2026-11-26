@@ -2,14 +2,13 @@
 title: "Penn State AE 868: Interpreting PV Manufacturer Datasheet"
 type: source
 source_type: technical documentation
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Interpreting PV Manufacturer Datasheet (AE 868 course book page)
 - **Author or organization:** Penn State College of Earth and Mineral Sciences, AE 868 course (individual author not named)
-- **Publication date:** 2016-05-29 (page date); accessed 2026-11-22
+- **Publication date:** 2016-05-29 (page date)
 - **Source type:** University course material
 - **Stable URL or DOI:** https://courses.ems.psu.edu/ae868/book/export/html/879
 - **Evidence label:** Established engineering practice

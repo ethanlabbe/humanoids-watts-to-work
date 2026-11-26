@@ -2,14 +2,13 @@
 title: "Friedrich 2026 AI Can't Outrun a Humanoid's Hardware"
 type: source
 source_type: trade press
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** AI can't outrun a humanoid's hardware
 - **Author or organization:** Andreas P. Friedrich, managing director technology and strategy, Allegro MicroSystems (per the editor's note)
-- **Publication date:** 2026-09-08; accessed 2026-11-22
+- **Publication date:** 2026-09-08
 - **Source type:** Trade press opinion piece by a supplier executive (not labelled sponsored)
 - **Stable URL or DOI:** https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/
 - **Evidence label:** Vendor-reported (opinion)

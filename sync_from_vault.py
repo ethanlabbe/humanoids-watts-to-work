@@ -13,9 +13,11 @@ What it changes on the way (the vault itself is never written):
 - turns links to left-out notes into plain text;
 - moves each note's first "# Heading" into frontmatter `title`, so Quartz
   shows it once (as the page title) instead of twice;
-- removes last-reviewed dates (review state is for the vault, not readers);
-- sets frontmatter `modified` to the vault file's date, since this repo's
-  git dates are only publish dates;
+- removes last-reviewed dates and review status (review state is for the
+  vault, not readers), and adds no page dates;
+- removes workflow traces: home-page review tags, "vault" wording, access and
+  re-read dates in source notes, and source-note sentences about fetching,
+  tooling or drafting history (publication dates are kept);
 - on the home page, drops list items and sections that only pointed at
   left-out notes.
 It then lists any wikilink that does not resolve to a published note.
@@ -27,7 +29,6 @@ import json
 import re
 import shutil
 import sys
-from datetime import date
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent
@@ -63,9 +64,9 @@ def rewrite_links(text: str, dropped: set[str], stats: dict) -> str:
     return WIKILINK.sub(sub, text)
 
 
-def set_frontmatter(text: str, modified: str) -> str:
-    """Move the first H1 into frontmatter `title` (removing it from the body) and
-    add `modified` (the vault file's date), keeping any value the note already sets."""
+def set_frontmatter(text: str) -> str:
+    """Move the first H1 into frontmatter `title` (removing it from the body).
+    No dates are added: the site shows none."""
     fm, body = "", text
     if text.startswith("---\n"):
         end = text.find("\n---\n", 4)
@@ -75,8 +76,6 @@ def set_frontmatter(text: str, modified: str) -> str:
     if m and not re.search(r"^title:", fm, re.M):
         body = body[: m.start()] + body[m.end():].lstrip("\n")
         fm = f"title: {json.dumps(m.group(1), ensure_ascii=False)}\n" + fm
-    if not re.search(r"^modified:", fm, re.M):
-        fm += f"modified: {modified}\n"
     return f"---\n{fm}---\n\n{body.lstrip(chr(10))}"
 
 
@@ -86,6 +85,65 @@ def strip_review_dates(text: str) -> str:
     text = re.sub(r"^last_reviewed:.*\n", "", text, flags=re.M)
     text = re.sub(r"^\*\*Last reviewed:\*\*.*\n\n?", "", text, flags=re.M)
     return text.replace("starts with its scope and last-reviewed date and", "starts with its scope and")
+
+
+DATE = r"\d{4}-\d{2}-\d{2}"
+# A sentence in a source note that records how the source was worked on, not
+# what it says: fetch failures, tooling, re-check reminders, drafting history.
+PROCESS_SENTENCE = re.compile(
+    r"HTTP \d{3}|automated|bot-blocked|could not be parsed|parsed cleanly|Poppler|"
+    r"\bfetch|the user's|at the user|on the user|Formerly cited|Re-check before citing|stands in|"
+    r"earlier draft|redraft|rewrite|" + DATE,
+    re.I,
+)
+
+
+def strip_process_notes(text: str) -> str:
+    """Make a source note read as a reference entry: drop access dates, re-read
+    dates, and sentences about fetching or drafting. Keeps publication dates."""
+    out = []
+    for line in text.splitlines(keepends=True):
+        if line.startswith("- **Publication date:**"):
+            line = re.sub(rf";?\s*(?:web pages |both )?accessed {DATE}[^;\n]*", "", line)
+            out.append(line)
+            continue
+        if line.startswith("- **Stable URL or DOI:**") or not line.startswith("- "):
+            out.append(line)
+            continue
+        body = line[2:].rstrip("\n")
+        body = re.sub(rf", re-read {DATE}(?: \([^)]*\))?: ", ": ", body)
+        stripped = re.sub(rf"^(?:Re-read|Checked verbatim) {DATE}(?: \([^)]*\))?: ", "", body)
+        if stripped != body and stripped:
+            stripped = stripped[0].upper() + stripped[1:]
+        body = stripped
+        parts = re.split(r"(?<=[.)\"])\s+(?=[A-Z(\"])", body)
+        kept = [s for s in parts if not PROCESS_SENTENCE.search(re.sub(r"https?://\S+", "", s))]
+        if kept:
+            out.append(f"- {' '.join(kept)}\n")
+    return "".join(out)
+
+
+def clean_for_readers(text: str, rel: str) -> str:
+    """Remove workflow traces readers should not see."""
+    text = re.sub(r"^status:.*\n", "", text, flags=re.M)
+    text = re.sub(r"\b([Tt])his vault\b", r"\1his book", text)
+    text = re.sub(r"\bthe vault\b", "this book", text)
+    text = re.sub(rf"\s*Last updated {DATE}\.", "", text)
+    text = text.replace(
+        "Checked sources that were cited in an earlier draft and are kept for the chapters that will use them.",
+        "Checked sources kept for the chapters that will use them.",
+    )
+    if rel.startswith("90 Sources/"):
+        text = strip_process_notes(text)
+    return text
+
+
+def clean_home(text: str) -> str:
+    """Home page: no review-state tags, no em dashes."""
+    text = re.sub(r" — (?:Reviewed|Draft|Plan for review)[^\n]*", "", text)
+    text = re.sub(r" — Planned$", " (Planned)", text, flags=re.M)
+    text = re.sub(r"^(#{2,6} Part \d+) — ", r"\1: ", text, flags=re.M)
+    return text
 
 
 def prune_home(text: str, dropped: set[str]) -> str:
@@ -119,9 +177,11 @@ def main() -> None:
         text = p.read_text(encoding="utf-8")
         if p.stem == HOME:
             text = prune_home(text, dropped)
+            text = clean_home(text)
         text = rewrite_links(text, dropped, stats)
         text = strip_review_dates(text)
-        text = set_frontmatter(text, date.fromtimestamp(p.stat().st_mtime).isoformat())
+        text = clean_for_readers(text, rel.as_posix())
+        text = set_frontmatter(text)
         for m in WIKILINK.finditer(text):
             t = m.group(2).strip()
             if t and t not in published:

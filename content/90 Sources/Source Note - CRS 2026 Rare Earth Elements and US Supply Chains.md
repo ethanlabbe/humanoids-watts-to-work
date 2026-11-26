@@ -2,14 +2,13 @@
 title: "CRS 2026 Rare Earth Elements and US Supply Chains"
 type: source
 source_type: government report
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Rare Earth Elements and U.S. Supply Chains (In Focus IF13171)
 - **Author or organization:** Congressional Research Service (series inferred from the IF number; read on the EveryCRSReport mirror, which names no author)
-- **Publication date:** 2026-03-04; accessed 2026-11-22
+- **Publication date:** 2026-03-04
 - **Source type:** Government research brief
 - **Stable URL or DOI:** https://www.everycrsreport.com/files/2026-03-04_IF13171_293b4f09964898af4a1178199bf89d4968a0feb1.html
 - **Evidence label:** Government analysis

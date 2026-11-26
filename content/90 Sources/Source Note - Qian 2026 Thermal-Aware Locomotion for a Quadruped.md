@@ -2,14 +2,13 @@
 title: "Qian 2026 Thermal-Aware Locomotion for a Quadruped"
 type: source
 source_type: paper
-modified: 2026-11-25
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Learning Thermal-Aware Locomotion Policies for an Electrically-Actuated Quadruped Robot
 - **Author or organization:** Letian Qian, Yuhang Wan, Shuhan Wang, Xin Luo (Huazhong University of Science and Technology)
-- **Publication date:** 2026-03-02 (arXiv v1); accessed 2026-11-25
+- **Publication date:** 2026-03-02 (arXiv v1)
 - **Source type:** Research preprint (full HTML text read)
 - **Stable URL or DOI:** https://arxiv.org/abs/2603.01631
 - **Evidence label:** Author-measured

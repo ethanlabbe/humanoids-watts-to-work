@@ -2,14 +2,13 @@
 title: "NASA Systems Engineering Handbook"
 type: source
 source_type: technical documentation
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** NASA Systems Engineering Handbook (NASA/SP-2016-6105 Rev 2), web edition
 - **Author or organization:** National Aeronautics and Space Administration (NASA)
-- **Publication date:** 2016 (Rev 2); web pages accessed 2026-11-19
+- **Publication date:** 2016 (Rev 2)
 - **Source type:** Government technical handbook, freely available
 - **Stable URL or DOI:** https://www.nasa.gov/seh/5-3-product-verification ; https://www.nasa.gov/reference/appendix-b-glossary/ ; https://www.nasa.gov/seh/appendix-c-how-to-write-a-good-requirement
 - **Evidence label:** Established engineering practice
@@ -28,5 +27,5 @@ Not applicable.
 
 ## Limitations
 
-- Written for NASA programmes; the requirement and verification practice is general, but the process weight is heavier than most commercial robot projects use.
+- Written for NASA programs; the requirement and verification practice is general, but the process weight is heavier than most commercial robot projects use.
 - Web edition; section URLs may move.

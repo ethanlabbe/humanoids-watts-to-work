@@ -2,7 +2,6 @@
 title: "BMW Group to deploy humanoid robots in production in Germany for the first time"
 type: source
 source_type: customer evidence
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
@@ -17,7 +16,7 @@ modified: 2026-11-22
 ## Claims supported
 
 - At Spartanburg, "Figure 02 handled the precise removal and positioning of sheet metal parts for the welding process". Not currently cited; background for the fixture-loading case (4.5, Planned).
-- "Within ten months, the robot Figure 02 supported the production of more than 30,000 BMW X3"; "it moved more than 90,000 components and covered approximately 1.2 million steps in around 1,250 operating hours", "working ten-hour shifts daily from Monday to Friday". Cited in [[1.1 - Introduction - From Watts to Work|1.1]] §1.1.3 and [[Deployment Tracker]]. The derived 72 parts per operating hour (50 s per part) was removed from 1.4 in its 2026-11-22 redraft and is held for 4.5 (Planned).
+- "Within ten months, the robot Figure 02 supported the production of more than 30,000 BMW X3"; "it moved more than 90,000 components and covered approximately 1.2 million steps in around 1,250 operating hours", "working ten-hour shifts daily from Monday to Friday". Cited in [[1.1 - Introduction - From Watts to Work|1.1]] §1.1.3 and [[Deployment Tracker]].
 - BMW describes this as "a pilot project". Recorded as a customer pilot.
 - BMW's stated reasons, cited in [[1.3 - Why Build a Humanoid|1.3]] §1.3.1, §1.3.5, §1.3.6: humanoids are "a value‑adding complement to existing automation"; they show "potential in monotonous, ergonomically demanding, or safety‑critical tasks"; "The goal is to relieve employees and further improve working conditions"; "the transition from the laboratory to the actual production environment was faster than expected"; "The pilot confirmed that humanoid robots can safely perform precise, repetitive work steps".
 - "working ten-hour shifts daily from Monday to Friday" is used as the shift pattern (requirement F-5), and "millimetre precision" is noted as qualitative beside F-2, in [[1.5 - From Use Case to Engineering Requirements|1.5]] §1.5.8.

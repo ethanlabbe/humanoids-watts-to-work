@@ -2,14 +2,13 @@
 title: "TI SLVAFB0 Solid-State Pre-Charge"
 type: source
 source_type: vendor material
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Application brief SLVAFB0 (products TPSI3050, TPSI3050-Q1, TPSI3052, TPSI3052-Q1)
 - **Author or organization:** Texas Instruments
-- **Publication date:** December 2021; accessed 2026-11-22
+- **Publication date:** December 2021
 - **Source type:** Vendor material (semiconductor supplier application brief)
 - **Stable URL or DOI:** https://www.ti.com/document-viewer/lit/html/SLVAFB0
 - **Evidence label:** Vendor-reported (engineering guidance)

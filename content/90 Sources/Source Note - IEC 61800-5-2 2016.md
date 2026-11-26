@@ -2,15 +2,14 @@
 title: "IEC 61800-5-2 2016"
 type: source
 source_type: standard
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** IEC 61800-5-2:2016, Adjustable speed electrical power drive systems, Part 5-2: Safety requirements, Functional
 - **Author or organization:** International Electrotechnical Commission (IEC)
-- **Publication date:** 2016-04-18 (edition 2.0); a consolidated version with an amendment is also listed; accessed 2026-11-22
-- **Source type:** Standard (catalog entry only; full text paywalled)
+- **Publication date:** 2016-04-18 (edition 2.0); a consolidated version with an amendment is also listed
+- **Source type:** Standard (catalogue entry only; full text paywalled)
 - **Stable URL or DOI:** https://webstore.iec.ch/publication/24556
 - **Evidence label:** Standard scope as stated by the publisher
 

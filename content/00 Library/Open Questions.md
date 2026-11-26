@@ -1,6 +1,5 @@
 ---
 title: "Open Questions"
-modified: 2026-11-22
 ---
 
 [[index|Home]]

@@ -2,14 +2,13 @@
 title: "Luo 2025 Tactile Robotics An Outlook"
 type: source
 source_type: paper
-modified: 2026-11-24
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Tactile Robotics: An Outlook
 - **Author or organization:** Shan Luo, Nathan F. Lepora, Wenzhen Yuan, Kaspar Althoefer, Gordon Cheng, Ravinder Dahiya
-- **Publication date:** 2025-08-15 (arXiv v1); accessed 2026-11-24
+- **Publication date:** 2025-08-15 (arXiv v1)
 - **Source type:** Research review (preprint, full HTML text read)
 - **Stable URL or DOI:** https://arxiv.org/abs/2508.11261
 - **Evidence label:** Expert review

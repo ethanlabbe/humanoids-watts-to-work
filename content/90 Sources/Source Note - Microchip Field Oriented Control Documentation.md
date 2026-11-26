@@ -2,14 +2,13 @@
 title: "Microchip Field Oriented Control Documentation"
 type: source
 source_type: vendor material
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Sensorless Field Oriented Control for a Permanent Magnet Synchronous Motor Using Sliding Mode Observer, section 2 "Field Oriented Control"
 - **Author or organization:** Microchip Technology Inc.
-- **Publication date:** Undated (site copyright 1998 to 2024); accessed 2026-11-22
+- **Publication date:** Undated (site copyright 1998 to 2024)
 - **Source type:** Vendor material (application documentation)
 - **Stable URL or DOI:** https://onlinedocs.microchip.com/oxy/GUID-69278EBA-9F00-4CEE-8103-2998236856BD-en-US-2/GUID-E191BE2C-BBD0-4208-8D15-B37ACED639DE.html
 - **Evidence label:** Vendor-reported (engineering explanation)

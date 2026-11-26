@@ -2,14 +2,13 @@
 title: "Nandor 2021 Transmission Comparison for Cooperative Robotic Applications"
 type: source
 source_type: paper
-modified: 2026-11-24
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Transmission Comparison for Cooperative Robotic Applications
 - **Author or organization:** Mark J. Nandor, Maryellen Heebner, Roger Quinn, Ronald J. Triolo, Nathaniel S. Makowski; Case Western Reserve University
-- **Publication date:** 2021-08-25 (*Actuators* 10(9), 203); accessed 2026-11-24
+- **Publication date:** 2021-08-25 (*Actuators* 10(9), 203)
 - **Source type:** Peer-reviewed journal paper (open access, CC BY)
 - **Stable URL or DOI:** https://doi.org/10.3390/act10090203
 - **Evidence label:** Author-measured research prototypes

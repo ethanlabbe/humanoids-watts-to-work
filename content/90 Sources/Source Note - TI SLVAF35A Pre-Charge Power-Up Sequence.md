@@ -2,14 +2,13 @@
 title: "TI SLVAF35A Pre-Charge Power-Up Sequence"
 type: source
 source_type: vendor material
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** White paper SLVAF35A, section 3 "Power-Up Sequence" (products DRV8714-Q1, TPS2HB16-Q1)
 - **Author or organization:** Texas Instruments
-- **Publication date:** February 2021, revised July 2024; accessed 2026-11-22
+- **Publication date:** February 2021, revised July 2024
 - **Source type:** Vendor material (semiconductor supplier white paper)
 - **Stable URL or DOI:** https://ti.com/document-viewer/lit/html/SLVAF35A/GUID-C085775C-2E48-4FBD-A54F-2AD18E308CB1
 - **Evidence label:** Vendor-reported (engineering guidance)

@@ -2,7 +2,6 @@
 title: "Zero-Moment Point: Thirty Five Years of Its Life"
 type: source
 source_type: paper
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
@@ -16,7 +15,7 @@ modified: 2026-11-22
 
 ## Claims supported
 
-- The zero-moment point (ZMP) is the standard reference for the biped balance condition that ground reaction must act inside the support area. Formerly cited in 1.4 §1.4.4; removed (2026-11-22 redraft of 1.4). Held for Chapter 3.7 (Planned).
+- The zero-moment point (ZMP) is the standard reference for the biped balance condition that ground reaction must act inside the support area. Held for Chapter 3.7 (Planned).
 
 ## Test conditions
 

@@ -2,14 +2,13 @@
 title: "Invertek Drives Braking and Regeneration"
 type: source
 source_type: vendor material
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Braking and Regeneration (iKnow knowledge base, article 14)
 - **Author or organization:** Invertek Drives Ltd
-- **Publication date:** Undated; accessed 2026-11-22
+- **Publication date:** Undated
 - **Source type:** Vendor material (drive maker's technical knowledge base)
 - **Stable URL or DOI:** https://invertekdrives.com/support/iknow/selection-and-installation/braking-and-regeneration-14
 - **Evidence label:** Vendor-reported (engineering guidance)

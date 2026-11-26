@@ -2,14 +2,13 @@
 title: "IEA Global EV Outlook: Electric Vehicle Batteries Chapters (2025 and 2026)"
 type: source
 source_type: technical documentation
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Global EV Outlook 2025, chapter "Electric vehicle batteries"; Global EV Outlook 2026, chapter "Electric vehicle batteries"
 - **Author or organization:** International Energy Agency (IEA), Paris
-- **Publication date:** 2025 and 2026 editions (exact dates not shown on the pages); accessed 2026-11-22
+- **Publication date:** 2025 and 2026 editions (exact dates not shown on the pages)
 - **Source type:** Intergovernmental agency report (free web edition)
 - **Stable URL or DOI:** https://www.iea.org/reports/global-ev-outlook-2025/electric-vehicle-batteries ; https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries
 - **Evidence label:** Agency market and technology analysis

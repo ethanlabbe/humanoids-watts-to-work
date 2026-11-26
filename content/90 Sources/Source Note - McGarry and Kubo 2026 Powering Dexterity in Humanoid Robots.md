@@ -2,14 +2,13 @@
 title: "McGarry and Kubo 2026 Powering Dexterity in Humanoid Robots"
 type: source
 source_type: trade press
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Powering Dexterity in Humanoid Robots
 - **Author or organization:** Laurence McGarry and Tatsuya Kubo, pSemi Corp.
-- **Publication date:** 2026-05-20; accessed 2026-11-22
+- **Publication date:** 2026-05-20
 - **Source type:** Trade press, written by engineers at a component supplier
 - **Stable URL or DOI:** https://www.powersystemsdesign.com/articles/powering-dexterity-in-humanoid-robots/22/23659
 - **Evidence label:** Vendor-reported

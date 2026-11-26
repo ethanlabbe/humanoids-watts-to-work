@@ -2,14 +2,13 @@
 title: "Urs 2022 Open-Source 3D Printed Actuators for Legged Locomotion"
 type: source
 source_type: paper
-modified: 2026-11-25
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Design and Characterization of 3D Printed, Open-Source Actuators for Legged Locomotion
 - **Author or organization:** Karthik Urs, Challen Enninful Adu, Elliott J. Rouse, Talia Y. Moore (University of Michigan)
-- **Publication date:** 2022-02-24 (arXiv v1); accessed 2026-11-25
+- **Publication date:** 2022-02-24 (arXiv v1)
 - **Source type:** Research preprint (full PDF text read)
 - **Stable URL or DOI:** https://arxiv.org/abs/2202.12395
 - **Evidence label:** Author-measured

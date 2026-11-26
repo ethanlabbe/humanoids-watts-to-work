@@ -2,14 +2,13 @@
 title: "Boston Dynamics Atlas Hands Blog"
 type: source
 source_type: vendor material
-modified: 2026-11-24
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Robot Hands for Modern AI and Real Work
 - **Author or organization:** Boston Dynamics
-- **Publication date:** Undated; accessed 2026-11-24
+- **Publication date:** Undated
 - **Source type:** Vendor blog
 - **Stable URL or DOI:** https://bostondynamics.com/blog/robot-hands-for-modern-ai-and-real-work/
 - **Evidence label:** Vendor-reported

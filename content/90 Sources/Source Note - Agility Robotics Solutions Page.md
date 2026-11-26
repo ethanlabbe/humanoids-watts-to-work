@@ -2,14 +2,13 @@
 title: "Humanoid Solutions | Agility"
 type: source
 source_type: vendor material
-modified: 2026-11-19
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Humanoid Solutions | Agility
 - **Author or organization:** Agility Robotics
-- **Publication date:** Undated living page; accessed 2026-11-19
+- **Publication date:** Undated living page
 - **Source type:** Vendor web page
 - **Stable URL or DOI:** https://www.agilityrobotics.com/solution
 - **Evidence label:** Vendor claim

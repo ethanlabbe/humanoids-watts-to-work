@@ -2,14 +2,13 @@
 title: "Ma 2025 Humanoid Knee Variable Reduction Ratio"
 type: source
 source_type: paper
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Explosive Output to Enhance Jumping Ability: A Variable Reduction Ratio Design Paradigm for Humanoid Robots Knee Joint
 - **Author or organization:** Xiaoshuai Ma, Haoxiang Qi, Qingqing Li, Haochen Xu, Xuechao Chen, Junyao Gao, Zhangguo Yu, Qiang Huang
-- **Publication date:** 2025-06-14 (arXiv v1); accessed 2026-11-22
+- **Publication date:** 2025-06-14 (arXiv v1)
 - **Source type:** Research preprint
 - **Stable URL or DOI:** https://arxiv.org/abs/2506.12314
 - **Evidence label:** Author-reported research prototype

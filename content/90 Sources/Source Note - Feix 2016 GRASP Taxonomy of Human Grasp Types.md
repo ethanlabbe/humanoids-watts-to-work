@@ -2,14 +2,13 @@
 title: "Feix 2016 GRASP Taxonomy of Human Grasp Types"
 type: source
 source_type: paper
-modified: 2026-11-24
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** The GRASP Taxonomy of Human Grasp Types
 - **Author or organization:** Thomas Feix, Javier Romero, Heinz-Bodo Schmiedmayer, Aaron M. Dollar, Danica Kragic
-- **Publication date:** 2016 (IEEE Transactions on Human-Machine Systems 46(1)); accessed 2026-11-24 through the user's library access
+- **Publication date:** 2016 (IEEE Transactions on Human-Machine Systems 46(1))
 - **Source type:** Peer-reviewed journal paper
 - **Stable URL or DOI:** https://doi.org/10.1109/THMS.2015.2470657
 - **Evidence label:** Peer-reviewed research (review and synthesis)

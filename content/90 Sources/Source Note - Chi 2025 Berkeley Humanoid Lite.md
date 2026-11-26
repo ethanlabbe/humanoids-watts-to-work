@@ -2,7 +2,6 @@
 title: "Demonstrating Berkeley Humanoid Lite: An Open-source, Accessible, and Customizable 3D-printed Humanoid Robot"
 type: source
 source_type: paper
-modified: 2026-11-24
 ---
 
 [[Source Index]] · [[index|Home]]
@@ -17,7 +16,7 @@ modified: 2026-11-24
 ## Claims supported
 
 - On a custom dynamometer, "the gearbox exhibits a mechanical efficiency of approximately 90% across most operating conditions. However, at high torque and velocity, efficiency decreases due to heat generation." Cited in [[1.4 - How a Humanoid Works - The Full System Map|1.4]] §1.4.2.
-- The paper defines *mechanical efficiency* $\eta_{\text{mech}} = P_{\text{mech}} / \lvert \tau_{\text{cmd}}\, \omega_{\text{cmd}} \rvert$ (representing the cycloidal reducer) separately from *total efficiency* $\eta_{\text{total}} = P_{\text{mech}} / P_{\text{elec}}$, which includes "motor copper losses, driver electrical losses, and mechanical losses". Here $P_{\text{mech}} = \tau \omega$ is measured torque times measured speed. No longer cited in 1.4 (2026-11-22 redraft of 1.4); held for 2.4 (Planned).
+- The paper defines *mechanical efficiency* $\eta_{\text{mech}} = P_{\text{mech}} / \lvert \tau_{\text{cmd}}\, \omega_{\text{cmd}} \rvert$ (representing the cycloidal reducer) separately from *total efficiency* $\eta_{\text{total}} = P_{\text{mech}} / P_{\text{elec}}$, which includes "motor copper losses, driver electrical losses, and mechanical losses". Here $P_{\text{mech}} = \tau \omega$ is measured torque times measured speed.
 - Cited in [[2.5 - Transmissions and Joint Modules|2.5]] §2.5.5, §2.5.6 (not in 1.4): a 60-hour durability test lifted a 0.5 kg, 0.5 m pendulum from −45° to +90° at 0.5 Hz. Efficiency "initially declined but later returned to near its original level"; backlash "increased slightly" with wear of 3D-printed parts.
 
 - "The robot weighs 16 kg and stands 0.8 m tall"; "two 5-DOF arms and integrated grippers"; joints driven by two sizes of actuator with 3D-printed cycloidal gearboxes and brushless drone motors. Cited in [[1.2 - What Is a Humanoid Robot|1.2]] §1.2.2, and in [[2.6 - Mechanical Architecture and Structures|2.6]] §2.6.3, §2.6.6 for its largely 3D-printed structure.

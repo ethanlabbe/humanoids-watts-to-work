@@ -2,7 +2,6 @@
 title: "The Robot Report: Agility Chooses Nyobolt for Ultra-Fast Charging for Digit 5 Humanoid"
 type: source
 source_type: vendor material
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]

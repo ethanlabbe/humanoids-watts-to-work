@@ -2,14 +2,13 @@
 title: "UN Manual of Tests and Criteria, Section 38.3: Lithium Metal and Lithium Ion Batteries"
 type: source
 source_type: standard
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Recommendations on the Transport of Dangerous Goods, Manual of Tests and Criteria, section 38.3, Lithium metal and lithium ion batteries
 - **Author or organization:** United Nations; record held by NRC Canada Codes, Standards and Regulations
-- **Publication date:** Record edition 2015-01-01 (page modified 2024-11-05); accessed 2026-11-22
+- **Publication date:** Record edition 2015-01-01 (page modified 2024-11-05)
 - **Source type:** International regulation (test manual)
 - **Stable URL or DOI:** https://csres-cnrse.nrc-cnrc.gc.ca/en/node/428
 - **Evidence label:** Regulatory requirement

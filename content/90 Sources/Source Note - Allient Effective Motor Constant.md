@@ -2,14 +2,13 @@
 title: "Allient Effective Motor Constant"
 type: source
 source_type: vendor material
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Effective Motor Constant
 - **Author or organization:** Allient, Inc.
-- **Publication date:** Undated (page copyright 2026); accessed 2026-11-22
+- **Publication date:** Undated (page copyright 2026)
 - **Source type:** Vendor material (technical blog)
 - **Stable URL or DOI:** https://allient.com/blogs/effective-motor-constant/
 - **Evidence label:** Vendor-reported (engineering explanation)

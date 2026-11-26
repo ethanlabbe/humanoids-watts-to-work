@@ -2,14 +2,13 @@
 title: "Meng 2025 SafeFall Protective Control for Humanoids"
 type: source
 source_type: paper
-modified: 2026-11-24
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** SafeFall: Learning Protective Control for Humanoid Robots
 - **Author or organization:** Ziyu Meng, Tengyu Liu, Le Ma, Yingying Wu, Ran Song, Wei Zhang, Siyuan Huang
-- **Publication date:** 2025-11-23 (arXiv v1); accessed 2026-11-24
+- **Publication date:** 2025-11-23 (arXiv v1)
 - **Source type:** Research preprint
 - **Stable URL or DOI:** https://arxiv.org/abs/2511.18509
 - **Evidence label:** Author-measured research on a commercial robot

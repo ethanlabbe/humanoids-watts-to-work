@@ -2,7 +2,6 @@
 title: "Digit Moves Over 100,000 Totes in Commercial Deployment"
 type: source
 source_type: vendor material
-modified: 2026-11-19
 ---
 
 [[Source Index]] · [[index|Home]]

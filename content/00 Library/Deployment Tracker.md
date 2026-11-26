@@ -1,11 +1,10 @@
 ---
 title: "Deployment Tracker"
-modified: 2026-11-19
 ---
 
 [[index|Home]]
 
-Add a row only with a cited source. Last updated 2026-11-19.
+Add a row only with a cited source.
 
 **Evidence stages** (use exactly one per row):
 

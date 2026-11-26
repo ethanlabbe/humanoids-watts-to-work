@@ -2,14 +2,13 @@
 title: "Wang 2026 Soft Responsive Materials Enhance Humanoid Safety"
 type: source
 source_type: paper
-modified: 2026-11-24
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Soft Responsive Materials Enhance Humanoid Safety
 - **Author or organization:** Chunzheng Wang, Yiyuan Zhang, Annan Tang, Ziqiu Zeng, Haoran Chen, Quan Gao, Zixuan Zhuang, Boyu Li, Zhilin Xiong, Aoqian Zhang, Ce Hao, Siyuan Luo, Tongyang Zhao, Cecilia Laschi, Fan Shi
-- **Publication date:** 2026-01-06 (arXiv v1); accessed 2026-11-24
+- **Publication date:** 2026-01-06 (arXiv v1)
 - **Source type:** Research preprint (full HTML text read)
 - **Stable URL or DOI:** https://arxiv.org/abs/2601.02857
 - **Evidence label:** Author-measured research on a commercial robot

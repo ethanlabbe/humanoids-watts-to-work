@@ -2,14 +2,13 @@
 title: "Engineering ToolBox Material Properties"
 type: source
 source_type: reference table
-modified: 2026-11-24
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Young's Modulus of Elasticity, Values for Common Materials; Solids, Densities
 - **Author or organization:** Engineering ToolBox
-- **Publication date:** Undated; accessed 2026-11-24
+- **Publication date:** Undated
 - **Source type:** Engineering reference tables (web)
 - **Stable URL or DOI:** https://www.engineeringtoolbox.com/young-modulus-d_417.html ; https://www.engineeringtoolbox.com/density-solids-d_1265.html
 - **Evidence label:** Reference values (typical, not for a specific grade)

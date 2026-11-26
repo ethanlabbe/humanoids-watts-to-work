@@ -2,7 +2,6 @@
 title: "GXO Signs Industry-First Multi-Year Agreement with Agility Robotics"
 type: source
 source_type: vendor material
-modified: 2026-11-22
 ---
 
 [[Source Index]] · [[index|Home]]
@@ -30,4 +29,4 @@ modified: 2026-11-22
 ## Limitations
 
 - Vendor announcement; no independent or customer-side performance data.
-- "Industry-first" is the vendor's own framing and is not used as a claim in this vault.
+- "Industry-first" is the vendor's own framing and is not used as a claim in this book.

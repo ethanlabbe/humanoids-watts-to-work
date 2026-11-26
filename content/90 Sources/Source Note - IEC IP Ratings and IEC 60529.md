@@ -2,15 +2,14 @@
 title: "IEC IP Ratings and IEC 60529"
 type: source
 source_type: standards body page
-modified: 2026-11-24
 ---
 
 [[Source Index]] · [[index|Home]]
 
-- **Title:** Ingress Protection (IP) ratings (explainer page); IEC 60529:1989+AMD1:1999+AMD2:2013 CSV, Degrees of protection provided by enclosures (IP Code) (catalog entry)
+- **Title:** Ingress Protection (IP) ratings (explainer page); IEC 60529:1989+AMD1:1999+AMD2:2013 CSV, Degrees of protection provided by enclosures (IP Code) (catalogue entry)
 - **Author or organization:** International Electrotechnical Commission (IEC)
-- **Publication date:** Explainer undated; standard consolidated version 2013-08-29; accessed 2026-11-24
-- **Source type:** Standards body explainer and catalog entry (the standard itself is sold, not read)
+- **Publication date:** Explainer undated; standard consolidated version 2013-08-29
+- **Source type:** Standards body explainer and catalogue entry (the standard itself is sold, not read)
 - **Stable URL or DOI:** https://www.iec.ch/ip-ratings ; https://webstore.iec.ch/en/publication/2452
 - **Evidence label:** Standards body description
 

@@ -2,14 +2,13 @@
 title: "Yale OpenHand Project"
 type: source
 source_type: research project page
-modified: 2026-11-24
 ---
 
 [[Source Index]] · [[index|Home]]
 
 - **Title:** Yale OpenHand Project
 - **Author or organization:** Yale GRAB Lab (A. M. Dollar and colleagues)
-- **Publication date:** Undated page; work published 2013 to 2017; accessed 2026-11-24
+- **Publication date:** Undated page; work published 2013 to 2017
 - **Source type:** University research project page
 - **Stable URL or DOI:** https://www.eng.yale.edu/grablab/openhand/index.html
 - **Evidence label:** Research, open-source designs
