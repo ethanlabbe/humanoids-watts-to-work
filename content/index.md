@@ -22,10 +22,6 @@ Evidence rules:
 - Evidence stages are kept distinct: simulation, demo, customer pilot, paid deployment, repeated production deployment.
 - Links sit next to the claims they support.
 
-## Suggested reading path
-
-[[1.4 - How a Humanoid Works - The Full System Map|1.4 Full system map]] → 4.5 Warehouse tote transfer (Planned) → 6.4 Cost per successful task and return on investment (Planned)
-
 ### Part 1: Foundations and system architecture
 
 - [[1.1 - Introduction - From Watts to Work|1.1 Introduction: From Watts to Work]]
